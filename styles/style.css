@@ -192,3 +192,31 @@ main h2 {
     padding: 1rem;
   }
 }
+
+/* ===== COLLECTIONS PAGE STYLES (feature/collections-page) ===== */
+
+.category h3 {
+  color: var(--primary);
+  margin-top: 0;
+}
+
+.book-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.book-list li {
+  padding: 0.5rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.book-list li:first-child {
+  border-top: none;
+}
+
+/* Collections page responsiveness: tighter card padding on narrow screens. */
+@media (max-width: 600px) {
+  .category {
+    padding: 0.75rem 1rem;
+  }
+}
