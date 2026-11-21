@@ -1,0 +1,1 @@
+{"author":"","description":"Readers' Haven Public Library — static website built with Parcel and served from Nginx in Docker (DevOps Fundamentals Assignment 02).","keywords":[],"license":"ISC","name":"readers-haven-library","private":true,"scripts":{"build":"parcel build src/*.html --dist-dir dist"},"version":"2.0.0","devDependencies":{"parcel":"^2.16.4"}}
